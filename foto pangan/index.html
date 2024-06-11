@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-FOOD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="pangan.mp4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <header>
+        <h1>Selamat Datang di E-Food!</h1>
+        <p>Belajar Sambil Bermain!</p>
+        <div id="menu">
+            <ul>
+                <li><a href="edukasi.html" onclick="navigateTo('edukasi')">Edukasi</a></li>
+                <li><a href="quis.html" onclick="navigateTo('kuis')">Kuis</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="edukasi" class="page" style="display: none;">
+            <h1>Edukasi</h1>
+            <p>This is the Edukasi page</p>
+        </section>
+        <section id="kuis" class="page" style="display: none;">
+            <h1>Kuis</h1>
+            <p>This is the Kuis page</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+

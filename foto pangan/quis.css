@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('edu.webp') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+.quiz-levels {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.level-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+}
+
+.level-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.level-info {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.level-button {
+    background-color: #00cc00;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.level-button:hover {
+    background-color: #009900;
+}
